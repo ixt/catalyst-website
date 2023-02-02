@@ -1,0 +1,157 @@
+@viewport {  width: device-width; }
+html {  
+  min-height: 100%; 
+}
+body {
+  background: white; 
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #111;
+  font-size: 1.1em;
+}
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-style: solid;
+  background: #111;
+  color: #222;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+strong{
+  font-weight: 700; 
+}
+
+img{
+  max-width: 40vw;
+}
+.container{
+  padding: 4em 8%;
+}
+.site-header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding-top: 1em;
+  background-color: rgba(255,255,255,0.8);
+}
+.site-header .wrapper{
+  display: table;
+  margin: 0 auto;
+}
+.menu-icon{
+  display: none;
+}
+.site-header ul{
+  list-style-type: none;
+  display: inline;
+  right: 5vw;
+}
+.site-header li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+}
+.site-header a, .site-header a:active, .site-header a:visited{
+  color: #111;
+  text-decoration: none;
+}
+.site-header a:hover{
+  font-color: #fff;
+  text-decoration: none;
+}
+#stuff a, #stuff a:active, #stuff a:visited {
+  text-decoration: none;
+  color: white;
+  background-color: #111;
+}
+#stuff a:hover {
+  color: #111;
+  background-color: #fff;
+  text-decoration: none;
+}
+#stuff {
+  width: 40vw;
+}
+#stuff hr{
+  width: 75vw;
+  left: 20vw;
+  position:static;
+}
+.top-bar, .bottom-bar {
+  display:none;
+}
+#artists {
+  width: 60vw;
+  left: 19.1vw;
+  right: 1vw;
+  float: right;
+  font-size: 1.2em;
+}
+#artists a {
+  text-decoration: none;
+  color: #111;
+}
+#artists a:link {
+  background-color: #fff;
+  text-decoration: none;
+}
+#artists a:visited {
+  background-color: #111;
+  text-decoration: none;
+}
+#artists a:hover {
+  color: #fff;
+  background-color: #ff4b2d;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 1030px) {
+  @-ms-viewport { width: 720px; }
+  .container{
+    padding: 3em 8%;
+    font-size: 1.5em;
+  }
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+  }
+  #stuff, #artists {
+    position: auto;
+    width: 85vw;
+    float: none;
+    left: auto;
+    right: auto;
+  }
+  .side-bar, .side-bar-page{
+    display: none;
+  }
+  img {
+    max-width: 85vw;
+    float: none;
+    left: auto;
+    right: auto;
+  }
+  .top-bar {
+    position:static;
+    display:block;
+    width: 100%;
+  }
+  .bottom-bar{
+    position: relative;
+    display: block;
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .site-header .wrapper{
+    margin: 0 0 0 5vw;
+  }
+  #menu-items{
+    margin-left: 10vw; 
+  }
+}

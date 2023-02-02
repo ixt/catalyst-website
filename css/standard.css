@@ -1,0 +1,67 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background: white; 
+  font-family: 'Futura', 'Helvetica', 'Arial', sans-serif;
+  color: #00003e;
+  max-width: 46.971em;
+  margin: 1.618em auto;
+  padding: 0 1em 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #ff003e;
+  font-weight: bold;
+  padding: 1em 0 1em 0;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+p {
+  margin: 0.618em 0.618em;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.618em;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.618em;
+  margin: 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0;
+}
+
+blockquote {
+  padding: 0 0 0 0;
+  margin-top: 0;
+  text-style: italic;
+}
+
+ul{
+  margin: 0 0 1em 0;
+  list-style-type: square;
+}
+
+img {
+  padding: 0 16.8% 0 16.8%;
+  width: 61.8%;
+}
+
+.icon {
+  padding: 0;
+  width: 16px;
+  height: 16px;
+}
